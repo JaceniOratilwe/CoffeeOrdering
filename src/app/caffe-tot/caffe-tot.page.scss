@@ -1,0 +1,21 @@
+ion-content{
+    --ion-background-color:rgba(77, 64, 36, 0.651);
+//   --background:url(../../assets/images/WeatherWallpaper-Stormfly2.jpg)0 0/100% no-repeat;
+
+}
+
+h1,h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+ion-toolbar{
+    text-align: center;
+}
+ion-button{
+    text-align:right;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 60%;
+   right:40%;
+}

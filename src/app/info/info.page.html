@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Delicious Coffee Corner</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <h1>Order Here</h1>
+      
+        <ion-item>
+            <ion-label>
+              <ion-row><ion-col><img src="../../assets/pictures/Mocha.jpg" width="90%" height="90%"> </ion-col>
+                <ion-col><h3> Mocha Coffee</h3><br>
+                <h3>Price : R50</h3>
+                <ion-col>{{price}}</ion-col>
+               
+                </ion-col>
+              </ion-row>
+              <ion-row><ion-col> <ion-button (click)="presentAlertConfirm()" expand="full"  shape="round" color="success">Place An Order</ion-button> </ion-col>      
+              </ion-row>
+            </ion-label>
+          </ion-item>
+
+
+          <ion-item>  
+          <ion-label>
+                <ion-row><ion-col><img src="../../assets/pictures/cappucino.jpg" alt="cappucino" width="90%" height="100%"><br> </ion-col>
+                  <ion-col><h3>cappucino</h3><br>
+                  <h3>Price : R50</h3>
+                  </ion-col>
+                </ion-row>
+                <ion-row><ion-col> <ion-button (click)="presentAlertConfirm2()" expand="full"  shape="round" color="success">Place An Order</ion-button> </ion-col>
+                </ion-row>
+              </ion-label>
+          </ion-item>
+
+          <ion-item>  
+              <ion-label>
+                    <ion-row><ion-col><img src="../../assets/pictures/caffee latte.jpg" alt="caffee latte" width="90%" height="90%"> </ion-col>
+                      <ion-col><h3>Caffee Latte</h3><br>
+                      <h3>Price : R50</h3>
+                      </ion-col>
+                    </ion-row>
+                    <ion-row><ion-col> <ion-button (click)="presentAlertConfirm3()" expand="full"  shape="round" color="success">Place An Order</ion-button> </ion-col>
+                    </ion-row>
+                  </ion-label>
+              </ion-item>
+
+
+              <ion-item>  
+                  <ion-label>
+                        <ion-row><ion-col><img src="../../assets/pictures/italian.jpg" alt="caffee latte" width="90%" height="90%"> </ion-col>
+                          <ion-col><h3>Italian</h3><br>
+                          <h3>Price : R50</h3>
+                          </ion-col>
+                        </ion-row>
+                        <ion-row><ion-col> <ion-button (click)="presentAlertConfirm4()" expand="full"  shape="round" color="success">Place An Order</ion-button> </ion-col>
+                        </ion-row>
+                      </ion-label>
+                  </ion-item>
+    </div>
+</ion-content>

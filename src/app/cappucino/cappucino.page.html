@@ -1,0 +1,40 @@
+<ion-header>
+    <ion-toolbar color="success">
+      <ion-title>Delicious Coffee Corner</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    
+      <div class="ion-padding">
+          <a href="#">Back</a>
+      <h1>Cappucino Coffee Extras</h1>
+  
+      <ion-list>
+          <ion-item >
+              <ion-checkbox slot="start" color="warning" (click)="add()"></ion-checkbox>
+            <ion-label>Sugar</ion-label>
+          </ion-item>
+  
+        
+          <ion-item >
+              <ion-checkbox slot="start" color="warning" (click)="add1()"></ion-checkbox>
+            <ion-label>Milk</ion-label>
+          </ion-item>
+  
+          
+          <ion-item >
+              <ion-checkbox slot="start" color="warning" (click)="add2()"></ion-checkbox>
+            <ion-label>Double Espresso</ion-label>
+          </ion-item>
+  
+          <ion-item><ion-label><ion-button (click)="print()" shape="round" expand="full" color="success">Place Order</ion-button><br></ion-label></ion-item>
+       
+  
+        </ion-list>
+        <h1>Total : R{{total}}</h1>
+      </div>
+    
+     {{correct2 }}
+  </ion-content>
+  
